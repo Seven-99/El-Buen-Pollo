@@ -47,7 +47,8 @@ export default function Footer() {
       {/* Copyright */}
       <div className="max-w-7xl mx-auto px-6 mt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-400 gap-4">
         <p>© {currentYear} El Buen Pollo - Todos los derechos reservados.</p>
-        <p>Diseño por <span className="text-white font-medium underline underline-offset-4 cursor-pointer">Pupa Lab</span></p>
+        <p>Diseño por <span className="text-white font-medium underline underline-offset-4 cursor-pointer"
+          href="">Pupa Lab</span></p>
       </div>
     </footer>
   );
