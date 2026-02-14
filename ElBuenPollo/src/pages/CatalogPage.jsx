@@ -5,28 +5,28 @@ import { motion } from 'framer-motion';
 export default function CatalogPage(){
   const secciones = [
     {
-      titulo: "OFERTAS DESTACADAS EN POLLO", // [cite: 3]
+      titulo: "OFERTAS DESTACADAS EN POLLO", 
       items: [
-        { nombre: "2 KG de Supremas de Pollo", precio: "$21.999" }, // [cite: 4, 5]
-        { nombre: "3 KG de Pata Muslo", precio: "$11.999" }, // [cite: 6, 7]
-        { nombre: "2 KG de Pollo Trozado", precio: "$7.999" }, // [cite: 8, 9]
-        { nombre: "Pollo Fresco Entero (unidad)", precio: "$16.900" } // [cite: 12, 13]
+        { nombre: "2 KG de Supremas de Pollo", precio: "$21.999" },
+        { nombre: "3 KG de Pata Muslo", precio: "$11.999" },
+        { nombre: "2 KG de Pollo Trozado", precio: "$7.999" },
+        { nombre: "Pollo Fresco Entero (unidad)", precio: "$16.900" } 
       ]
     },
     {
-      titulo: "MILANESAS Y CONGELADOS", // [cite: 14]
+      titulo: "MILANESAS Y CONGELADOS",
       items: [
-        { nombre: "Milanesas x 2 KG + Maple de Huevo", precio: "$19.999" }, // [cite: 15]
-        { nombre: "Milanesas de Pechuga x 2 KG", precio: "$13.900" }, // [cite: 16, 17]
-        { nombre: "2 KG de Medallones de Merluza", precio: "$9.900" } // [cite: 20, 21]
+        { nombre: "Milanesas x 2 KG + Maple de Huevo", precio: "$19.999" },
+        { nombre: "Milanesas de Pechuga x 2 KG", precio: "$13.900" },
+        { nombre: "2 KG de Medallones de Merluza", precio: "$9.900" } 
       ]
     },
     {
-      titulo: "COMBOS ECONÓMICOS", // [cite: 24]
+      titulo: "COMBOS ECONÓMICOS", 
       items: [
-        { nombre: "Combo Parrilla (Chori + Morci + Leña)", precio: "$20.900" }, // [cite: 25, 30]
-        { nombre: "Combo Pollo Parrillero (2 Pollos + Carbón)", precio: "$23.000" }, // [cite: 31, 34]
-        { nombre: "Combo Semanal (Mila + Hambur + Trozado)", precio: "$19.900" } // [cite: 35, 39]
+        { nombre: "Combo Parrilla (Chori + Morci + Leña)", precio: "$20.900" },
+        { nombre: "Combo Pollo Parrillero (2 Pollos + Carbón)", precio: "$23.000" },
+        { nombre: "Combo Semanal (Mila + Hambur + Trozado)", precio: "$19.900" }
       ]
     }
   ];

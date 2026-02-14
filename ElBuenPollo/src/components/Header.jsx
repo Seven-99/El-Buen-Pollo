@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { NavHashLink } from 'react-router-hash-link'; // Importante: usar este
+import { NavHashLink } from 'react-router-hash-link';
 import { Link } from "react-router-dom";
 
 export default function Header() {
@@ -10,7 +10,7 @@ export default function Header() {
     { name: "Inicio", href: "/#inicio" },
     { name: "Productos", href: "/#productos" },
     { name: "Ofertas", href: "/CatalogPage", isSpecial: true },
-    { name: "Nosotros", href: "/#nosotros" }, // Asegurate que en App.jsx el id sea "nosotros"
+    { name: "Nosotros", href: "/#nosotros" }, 
   ];
 
   return (
